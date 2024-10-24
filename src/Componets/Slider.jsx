@@ -25,7 +25,7 @@ function Slider() {
     }
   return (
     <div>
-        <HiChevronLeft className="hidden md:block text-white text-[30px] absolute
+        <HiChevronLeft className="hidden md:block text-orange text-[30px] absolute
         mx-8 mt-[150px] cursor-pointer " 
         onClick={()=>sliderLeft(elementRef.current)}/>
         <HiChevronRight className='hidden md:block text-white text-[30px] absolute
